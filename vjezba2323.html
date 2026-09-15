@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Moje slike</title>
+    <link rel="stylesheet" href="stil2.css">
+    <script src="skripta2.js"></script>
+</head>
+<body>
+    <h1>Galerija slika</h1>
+    <div class="galerija">
+        <img src="slika1.jpg" alt="Priroda"
+             onmouseover="povecaj(this)"
+             onmouseout="smanji(this)">
+        <img id="slikaSwap" src="slika2.jpg" alt="Grad"
+             onmouseover="zamijeni()"
+             onmouseout="vrati()">
+        <img src="slika3.jpg" alt="More">
+    </div>
+    </body>
+    </html>
